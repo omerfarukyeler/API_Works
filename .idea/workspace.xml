@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eafb82b9-1bef-4f46-9087-9b430f0bde7f" name="Changes" comment="first commit">
+    <list default="true" id="20090366-9a8d-459a-b3ed-72ccd83de1a3" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/Hw1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/Hw1.java" afterDir="false" />
     </list>
@@ -21,7 +21,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,8 +50,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Hw1.questionTree">
-    <configuration name="Hw1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Hw1.deserializeToList">
+    <configuration name="Hw1.apiapiLimitCounterDecreasesWhenARequestIsMade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API_Works" />
       <extension name="coverage">
         <pattern>
@@ -59,28 +61,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.Hw1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hw1.questionOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="API_Works" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Hw1" />
-      <option name="METHOD_NAME" value="questionOne" />
+      <option name="METHOD_NAME" value="apiapiLimitCounterDecreasesWhenARequestIsMade" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hw1.questionTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Hw1.deserializeToList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API_Works" />
       <extension name="coverage">
         <pattern>
@@ -90,13 +77,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.Hw1" />
-      <option name="METHOD_NAME" value="questionTree" />
+      <option name="METHOD_NAME" value="deserializeToList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hw1.questionTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Hw1.deserializeToMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API_Works" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +93,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.Hw1" />
-      <option name="METHOD_NAME" value="questionTwo" />
+      <option name="METHOD_NAME" value="deserializeToMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hw1.questiontwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Hw1.setupLoggingAtBefore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API_Works" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +109,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.Hw1" />
-      <option name="METHOD_NAME" value="questiontwo" />
+      <option name="METHOD_NAME" value="setupLoggingAtBefore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hw1.useRestAssuredLogging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API_Works" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Hw1" />
+      <option name="METHOD_NAME" value="useRestAssuredLogging" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,18 +133,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Hw1.questionTree" />
-        <item itemvalue="JUnit.Hw1.questionOne" />
-        <item itemvalue="JUnit.Hw1.questionTwo" />
-        <item itemvalue="JUnit.Hw1" />
-        <item itemvalue="JUnit.Hw1.questiontwo" />
+        <item itemvalue="JUnit.Hw1.deserializeToList" />
+        <item itemvalue="JUnit.Hw1.deserializeToMap" />
+        <item itemvalue="JUnit.Hw1.useRestAssuredLogging" />
+        <item itemvalue="JUnit.Hw1.setupLoggingAtBefore" />
+        <item itemvalue="JUnit.Hw1.apiapiLimitCounterDecreasesWhenARequestIsMade" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eafb82b9-1bef-4f46-9087-9b430f0bde7f" name="Changes" comment="" />
+      <changelist id="20090366-9a8d-459a-b3ed-72ccd83de1a3" name="Changes" comment="first commit" />
       <created>1679225879060</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -154,8 +157,26 @@
       <option name="project" value="LOCAL" />
       <updated>1679244565003</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1679246151199</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679246151199</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
