@@ -51,7 +51,7 @@ public class Hw1 {
     public void questionTree(){
         //http://www.boredapi.com/api/activity?key=9324336
         Response response =RestAssured.given().contentType(ContentType.ANY).queryParam("key","9324336").get("http://www.boredapi.com/api/activity");
-        response.prettyPrint();
+        response.print();
         String body = response.body().asString();
 
         Assert.assertTrue(body.contains("Clean out your refrigerator"));
