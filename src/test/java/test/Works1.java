@@ -1,6 +1,5 @@
 package test;
 
-import io.cucumber.java.bs.A;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -15,7 +14,7 @@ import java.util.Map;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class Hw1 {
+public class Works1 {
 
 
     @Before
