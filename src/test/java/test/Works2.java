@@ -91,7 +91,7 @@ public class Works2 {
                 .when().get("/booking/{id}")
                 .then().assertThat().statusCode(200).log().body();
     }
-    @Test
+
     public Response getbooking(int id ) {
 
         return RestAssured
@@ -134,7 +134,7 @@ public class Works2 {
 
     }
     @Test
-    public void getBookingAndDeserializetoPOJO() {//buraya kadar notlarım alındı
+    public void getBookingAndDeserializetoPOJO() {//getbookingresponsedan çekilip assert yapıldı
 
         GetBookingResponse pojoResponse = getbooking(156).body().as(GetBookingResponse.class);
 
@@ -144,7 +144,7 @@ public class Works2 {
     }
 
     @Test
-    public void postABookingUsingStringJson() {
+    public void postABookingUsingStringJson() {//asagıdaki postBooking metodunu kullandık yeni bir post oluşturduk
 
         String randomBookingData = "{\n" +
                 "    \"firstname\" : \"test-1\",\n" +
@@ -164,7 +164,7 @@ public class Works2 {
         System.out.println("pojoObj.getBookingid() = " + pojoObj.getBookingid());
     }
 
-    public Response postBooking(String requestBodyJson) {
+    public Response postBooking(String requestBodyJson) {//post için oluşturuldu bir üstte kullanıldı
 
         return RestAssured
                 .given().baseUri("https://restful-booker.herokuapp.com")
@@ -175,7 +175,7 @@ public class Works2 {
                 .then().statusCode(200).extract().response();
     }
 
-    public Response postBooking(GetBookingResponse pojoForPost) {
+    public Response postBooking(GetBookingResponse pojoForPost) {//207.satırda kullanıldı
 
         return RestAssured
                 .given().baseUri("https://restful-booker.herokuapp.com")
@@ -211,8 +211,7 @@ public class Works2 {
 
         return (int )response.path("bookingid");
     }
-
-    public Map<String, String> generateBodyForAuthToken() {
+    public Map<String, String> generateBodyForAuthToken() {//token oluşturuldu
         Map<String, String> authBody = new HashMap<>();
         authBody.put("username", "admin");
         authBody.put("password", "password123");
@@ -220,7 +219,7 @@ public class Works2 {
         return authBody;
     }
 
-    public String getAuthToken() {
+    public String getAuthToken() {//token i alıyoruz
         Map<String, String> body = generateBodyForAuthToken();
 
         Response response = RestAssured
@@ -237,11 +236,12 @@ public class Works2 {
 
     @Test
     public void getAuthTokenTest() {
+
         System.out.println(getAuthToken());
     }
 
     @Test
-    public void useAuthAndPutMethod() {
+    public void useAuthAndPutMethod() {//put işlemi yapıldı
         // create token
         String authToken = getAuthToken();
 
